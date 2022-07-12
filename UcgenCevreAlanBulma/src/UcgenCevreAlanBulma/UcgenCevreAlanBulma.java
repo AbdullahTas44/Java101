@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author DELL
  */
-public class HipotenusBulma {
+public class UcgenCevreAlanBulma {
 
     /**
      * @param args the command line arguments
