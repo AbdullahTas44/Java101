@@ -64,10 +64,18 @@ public class GelismisHesapMakinesi {
         System.out.print("Lütfen 2. sayıyı giriniz : ");
         int num2= input.nextInt();
         
+        if (num2==0){
+            
+            System.out.println("Bölen sayıyı 0 olarak giremezsiniz");
+            
+        }else {
+       
+        
         double result = num1/num2;
         System.out.println("Bölme işleminizin sonucu : " + result);
     }
-    
+         
+        }
     
     static void uslu(){
         
